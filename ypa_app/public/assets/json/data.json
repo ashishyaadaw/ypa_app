@@ -1,0 +1,94 @@
+{
+    "NGO": {
+        "name": "Example NGO",
+        "registrationNumber": "123456789",
+        "address": {
+            "street": "123 Main St",
+            "city": "Gorakhpur",
+            "state": "Uttar Pradesh",
+            "country": "India",
+            "postalCode": "273001"
+        },
+        "contact": {
+            "phone": "+91-1234567890",
+            "email": "info@examplengo.org"
+        },
+        "members": [
+            {
+                "memberID": "M001",
+                "name": "John Doe",
+                "role": "President",
+                "contact": {
+                    "phone": "+91-9876543210",
+                    "email": "john.doe@examplengo.org"
+                },
+                "joinedDate": "2023-01-15"
+            }
+        ],
+        "donors": [
+            {
+                "donorID": "D001",
+                "name": "Jane Smith",
+                "contact": {
+                    "phone": "+91-1234567891",
+                    "email": "jane.smith@example.com"
+                },
+                "donations": [
+                    {
+                        "donationID": "DN001",
+                        "amount": 5000,
+                        "date": "2023-02-20",
+                        "purpose": "Education Fund"
+                    }
+                ]
+            }
+        ],
+        "projects": [
+            {
+                "projectID": "P001",
+                "name": "Clean Water Initiative",
+                "description": "Providing clean water to rural areas.",
+                "startDate": "2023-03-01",
+                "endDate": "2024-03-01",
+                "status": "Ongoing",
+                "budget": 100000,
+                "expenses": [
+                    {
+                        "expenseID": "E001",
+                        "amount": 20000,
+                        "date": "2023-03-15",
+                        "description": "Water filters"
+                    }
+                ]
+            }
+        ],
+        "events": [
+            {
+                "eventID": "EV001",
+                "name": "Annual Fundraiser",
+                "date": "2023-12-10",
+                "location": "City Hall",
+                "description": "Annual fundraising event to support our projects.",
+                "participants": [
+                    {
+                        "participantID": "P001",
+                        "name": "Alice Johnson",
+                        "role": "Guest Speaker"
+                    }
+                ]
+            }
+        ],
+        "volunteers": [
+            {
+                "volunteerID": "V001",
+                "name": "Bob Brown",
+                "contact": {
+                    "phone": "+91-1234567892",
+                    "email": "bob.brown@example.com"
+                },
+                "availability": "Weekends",
+                "skills": ["Teaching", "First Aid"]
+            }
+        ]
+    }
+}
